@@ -1,0 +1,136 @@
+# Ignore all files 
+
+# Go 바이너리 파일들
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go 테스트 바이너리, test-* 접두사로 만들어짐:
+test-*
+
+# Go 작업공간 파일
+go.work
+
+# 실행 파일들
+/blockchain
+/blockchain-*
+main
+cmd/main
+
+# 로그 파일들
+*.log
+logs/
+log/
+
+# 데이터베이스 파일들 (블록체인 데이터)
+*.db
+*.bdb
+blockchain_*.db
+blockchain.db
+wallet.dat
+wallets.dat
+blockchain_data/
+data/
+
+# 벤더 의존성 (만약 사용하는 경우)
+vendor/
+
+# 테스트 커버리지 출력
+*.out
+coverage.txt
+coverage.html
+
+# IDE 및 에디터 파일들
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 썸네일
+._*
+
+# macOS 볼륨 디렉토리
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# 디렉토리 설정
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+
+# 윈도우 폴더 설정 파일
+[Dd]esktop.ini
+
+# 윈도우 휴지통
+$RECYCLE.BIN/
+
+# 윈도우 인스톨러 파일들
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# 윈도우 바로가기
+*.lnk
+
+# Linux
+*~
+
+# KDE 디렉토리 설정
+.directory
+
+# Linux 휴지통
+.Trash-*
+
+# nfs 액세스 포인트
+.nfs*
+
+# 환경 변수 파일들
+.env
+.env.local
+.env.*.local
+
+# 임시 파일들
+*.tmp
+*.temp
+/tmp/
+temp/
+
+# 백업 파일들
+*.bak
+*.backup
+*.orig
+
+# 압축 파일들 (일반적으로 제외)
+*.zip
+*.tar.gz
+*.rar
+
+# 문서 생성 파일들
+*.pdf
+docs/_build/
+
+# 프로파일링 결과
+*.prof
+*.pprof
+
+# Delve 디버거 바이너리
+__debug_bin 
